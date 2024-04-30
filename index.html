@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>blog.</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css"> 
+  <style>
+    
+   
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><span class="brand-text">blog.</span></a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto"> 
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        </li>
+        <li class="nav-item" id="search-item"> 
+          <a class="nav-link" href="#" onclick="editSearchText()"><i class="fas fa-search"></i> <span id="search-text">Pesquisar</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-facebook"></i> Facebook</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 position-relative">
+        <div class="image-container">
+          <img class="blog-image" src="https://i.pinimg.com/originals/71/44/8c/71448cc42be5ff7ff8e1d6e7440a4c4b.jpg" width="500" height="600" id="noticia" onclick="hideImage()">
+          <div class="overlay-text">
+            <p>CONFIRA!! Novo álbum Hit Me Soft and Hard da cantora Billie Eilish será lançado dia 17 de maio! Não perca nossas informações!</p>
+          </div>
+          <div class="new-text" style="display: none;">
+            <p>"Billie Eilish está prestes a lançar um novo álbum e os fãs estão ansiosos para ouvir o que a jovem estrela da música tem reservado para eles. Com o título provocativo de 'Hit Me Soft and Hard', o álbum promete uma jornada emocionante através das complexidades da vida e do amor, como só Billie sabe proporcionar.
+
+              Marcado para ser lançado no dia 17 de maio, 'Hit Me Soft and Hard' vem carregado com a assinatura única de Billie Eilish: letras introspectivas, batidas envolventes e uma voz que transmite uma profunda sensibilidade. Desde o seu primeiro sucesso, Billie tem cativado o mundo com sua autenticidade e habilidade de conectar-se com os ouvintes de uma forma visceral.
+              
+              O álbum promete ser uma mistura arrojada de sons e estilos, refletindo a evolução artística de Billie Eilish desde seu último trabalho aclamado pela crítica. Com singles já lançados que têm agitado as plataformas de streaming e redes sociais, as expectativas para 'Hit Me Soft and Hard' estão nas alturas.
+              
+              Para os fãs que mal podem esperar para mergulhar nas novas músicas de Billie, este é um lançamento imperdível. Prepare-se para ser transportado por uma montanha-russa de emoções, enquanto Billie Eilish mais uma vez redefine os limites da música pop contemporânea.
+              
+              Fique atento para mais informações e atualizações sobre o lançamento de 'Hit Me Soft and Hard'. Este é um álbum que certamente marcará seu lugar na trilha sonora de 2024."</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col-md-6">
+        <div class="container-below-nav image-row"> 
+          <h4 id="Titulo">Veja todas as notícias</h4>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="image-container">
+                <img class="enem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9iQvO13g8NNI31ictvk7RKAzuXkq3dmH8-g&s" id="img1" onclick="Enem()">
+                <img class="enem" src="https://universalmusic.vtexassets.com/arquivos/ids/185290-800-800?v=638481915253870000&width=800&height=800&aspect=true" id="img3" style="display: none;">
+                <img class="enem" src="https://s2-oglobo.glbimg.com/EMLP6C9xDNPxE4lZA4nk7kigiH0=/0x0:4000x3000/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/T/l/CVGtBBTgC1781dc3wTAA/gabarito-enem-2022-2o-dia-4.jpg" id="img5" style="display: none;">
+                <img src="https://files.tecnoblog.net/wp-content/uploads/2014/11/cadeado-seguranca-700x432.jpg" alt="" class="enem" id="img7" style="display: none">
+
+                <p id="hide">Garanta sua vaga no enem dos concursos!</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="image-container">
+                <img class="enem" src="https://zh.57sq.com/wp-content/uploads/user_files/11/bbs/21417765_1680965972.jpg" id="img2" onclick="tiktok()">
+                <img class="enem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Cv0Ltz0qWLaCSid8Xu3R5U2KyZbzWf5-dF5Y--Lfzg&s" id="img4" style="display: none;">
+                <img class="enem" src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/08/07/dia-do-estudante-1hrlykg8h7ubd.jpg" id="img6" style="display: none;">
+
+                <p id="hide2">Tiktok diz pegar informações dos usuários...</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="container-below-nav comentt" style=" height: 57vh; width:45vw; margin-top: 7vh; margin-bottom: 15vh;">
+            <h3 id="comentario">ENEM dos concursos</h3>
+            <div class="col-12" style="display: flex; flex-direction: column; align-items: center;" id="comentt">
+                <div class="image-container" id="hide4">
+                    <img class="enem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9iQvO13g8NNI31ictvk7RKAzuXkq3dmH8-g&s" id="img" onclick="Enem()">
+                </div>
+                <div>
+                    <p style="color: black;" id="hide3">"Enem dos concursos": Locais de prova são divulgados; veja como consultar.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style=" width: 15vw; margin-left: -47vw; margin-top: -40vh; text-align:center;" id="margin"> 
+          <div class="col-6" style="display: flex; align-items: center; text-wrap:nowrap;">
+              <div>
+                  <p style="color: black; margin-top: 2vh;">Notíciais mais quentinhas</p>
+              </div>
+          </div>
+          
+          
+        </div>  
+
+        <div class="container" style=" width: 15vw; margin-left: -30vw; margin-top: -9vh; text-align:center;" > 
+          <div class="col-6" style="display: flex; align-items: center; text-wrap:nowrap;">
+              <div>
+                  <p style="color: black; margin-top: 2vh;" id="Comment">Ver mais notícias</p>
+              </div>
+          </div>
+          
+          
+        </div>  
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+  
+  <!-- Bootstrap JavaScript  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+ 
+</body>
+</html>

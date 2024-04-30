@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+   
+    font-family: 'IM Fell DW Pica', serif;
+}
+
+/* Estilos especiais */
+.navbar-brand {
+    color: #000;
+    font-weight: bold;
+    font-size:xx-large;
+}
+#search-input {
+  display: none;
+}
+
+.navbar {
+  margin-bottom: 10px; 
+  border-bottom: 10px solid black; 
+}
+
+.container-below-nav {
+    color: white;
+    border: 3px solid black;
+}
+.container-below-nav img{
+    display: flex;
+    text-align: left;
+}
+
+
+.blog-image {
+    max-width: 100%; 
+    float: left; 
+    margin-left: -5vw;
+    margin-right: 20px; 
+    border: 5px solid black; 
+    margin-top: 25px; 
+    margin-bottom: 20px; 
+    margin: 20px; 
+    padding: 1vw;
+}
+
+
+.new-text {
+    display: none; 
+    border: 5px solid black; 
+    padding: 20px; 
+}
+
+#search-input {
+    display: none;
+}
+
+.navbar {
+    border-bottom: 6px solid black; 
+    margin-bottom: 10px;
+}
+/* Estilos especiais */
+.navbar-brand .brand-text {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em; /* Tamanho maior */
+    margin-left: 20px;
+}
+
+.navbar-brand .brand-text:hover {
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active i {
+    color: #fff;
+}
+.container-below-nav {
+    border: 5px solid black; /* Borda da caixa de texto */
+    width: calc(100% - 40px); /* Calcula a largura para coincidir com a largura da barra de navegação */
+    padding: 100px; /* Adiciona algum espaço interno */
+    margin-top: 6vh;
+    flex-direction: column; /* Ajusta o layout para uma coluna */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    
+  }
+
+  .container-below-nav img {
+    display: block; /* Garante que a imagem seja um bloco para centralizar */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 3vw;
+  }
+
+  .container-below-nav h4{
+    color: #000;
+    margin-top: -9vh;
+    margin-left: -31vw;
+    text-align: start;
+    font-size: larger;
+  }
+  .container-below-nav h3{
+    color: #000;
+    margin-top: -9vh;
+    margin-left: -5.5vw;
+    text-align: start;
+    font-size: larger;
+  }
+  .image-container {
+    position: relative;
+    max-width: 500px;
+    margin-top: 3vh;
+  }
+  .image-container > img + p {
+    text-align: center;
+    margin-top: 10px;
+    color: #000;
+  }
+  
+  .overlay-text p {
+    margin: 0; /* Remove a margem padrão do parágrafo */
+    font-size: 16px; /* Tamanho da fonte do texto */
+    max-width: 100%;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 20px; /* Ajuste a posição vertical conforme necessário */
+    left: 20px; /* Ajuste a posição horizontal conforme necessário */
+    width: calc(80% - 40px); /* Largura da caixa de texto é igual à largura da imagem menos a margem */
+    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo da caixa de texto */
+    padding: 10px; /* Espaçamento interno da caixa de texto */
+    border: 5px solid black; /* Borda da caixa de texto */
+    box-sizing: border-box; /* Garante que a largura da caixa de texto inclua a borda */
+    margin-top: 220px;
+    margin-left: 60px;
+  }
+  .container-below-nav.enem-container {
+    text-align: left; /* Alinha o texto à esquerda */
+    padding-left: 20px; /* Adiciona um espaçamento à esquerda */
+    max-width: 300px;
+}
+
+.enem {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    float: left; /* Move a imagem para a esquerda */
+    margin: 20px;
+    position: relative;
+    margin-left: -4vw;
+    border: 5px solid black;
+}
+/* Estilos para a linha de imagens */
+.image-row {
+  display: flex; /* Exibe os itens da div em linha */
+  justify-content: start; /* Alinha os itens ao início do contêiner */
+  align-items: center; /* Centraliza os itens verticalmente */
+  flex-wrap: nowrap;
+  height: 50vh;
+  margin-left: -7vw;
+}
+
+.image-container {
+  flex: 1; /* Distribui o espaço disponível igualmente entre os contêineres de imagem */
+  flex-direction: column; /* Organiza os elementos internos na vertical */
+  justify-content: center;
+  align-items: center;
+  padding: 10px; /* Adiciona espaço dentro de cada contêiner de imagem */
+  
+}
+
+.container {
+  border: 5px solid black;
+  height: 15vh;
+}
+
+.enem, #img1, #img, #img2, #img3, #img4, #img5, #img6, #img7 {
+  width: 100%; /* Faz as imagens preencherem o espaço disponível no contêiner */
+  min-width: 200px;/* Define uma largura máxima para as imagens */
+  height: auto; /* Mantém a proporção da imagem baseada na largura */
+  padding: 10px;
+}
+  
+  .image-container img + p {
+    text-align: center;
+    margin-top: 10px;
+    color: #000;
+  }
+  
+  /* Estilos para as imagens dentro da div */
+  .image-container img {
+    margin: 10px; /* Adiciona um espaçamento entre as imagens */
+
+  }
+  
